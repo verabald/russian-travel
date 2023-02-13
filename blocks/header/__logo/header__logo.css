@@ -1,0 +1,5 @@
+.header__logo {
+    width: 176px;
+    height: 52px;
+    margin: calc(16px + (28 - 16) * ((100vw - 320px) / (1280 - 320))) 0 0;
+  }

@@ -1,0 +1,10 @@
+.place__title {  
+    width: calc(320px + (460 - 320) * ((100vw - 320px) / (1280 - 320)));
+    margin: 0 0 calc(32px + (48 - 32) * ((100vw - 320px) / (1280 - 320)));
+    padding: 0;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 1.1;
+    color: #FFFFFF;
+}

@@ -1,0 +1,6 @@
+.photo-grid {
+    margin: calc(64px + (92 - 64) * ((100vw - 320px) / (1280 - 320))) calc(16px + (48 - 16) * ((100vw - 320px) / (1280 - 320))) 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    gap: 16px;
+}

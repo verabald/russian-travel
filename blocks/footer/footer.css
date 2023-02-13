@@ -1,0 +1,5 @@
+.footer {
+    margin: calc(64px + (92 - 64) * ((100vw - 320px) / (1280 - 320))) 48px 0;
+    display: flex;
+    justify-content: space-between;
+}

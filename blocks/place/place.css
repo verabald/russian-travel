@@ -1,0 +1,12 @@
+.place {
+    margin: 0 0 calc(50px + (80 - 50) * ((100vw - 320px) / (1280 - 320)));
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(min-content, max-content));
+    grid-template-rows: repeat(2, minmax(min-content, max-content));
+    gap: 0 40px;
+}
+
+.place:last-child {
+    margin: 0;
+}

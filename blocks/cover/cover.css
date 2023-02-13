@@ -1,0 +1,5 @@
+.cover {
+    margin: calc(66px + (92 - 66) * ((100vw - 320px) / (1280 - 320))) calc(0px + (48 - 0) * ((100vw - 320px) / (1280 - 320))) 48px;
+    padding: 0;
+    box-sizing: border-box;
+}
