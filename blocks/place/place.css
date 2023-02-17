@@ -10,3 +10,9 @@
 .place:last-child {
     margin: 0;
 }
+
+@media screen and (max-width: 767px) {
+    .place {
+        grid-template-columns: repeat(1, minmax(min-content, max-content));
+    }
+  }

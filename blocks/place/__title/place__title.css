@@ -4,7 +4,7 @@
     padding: 0;
     font-style: normal;
     font-weight: 900;
-    font-size: 72px;
+    font-size: calc(32px + (72 - 32) * ((100vw - 320px) / (1280 - 320)));
     line-height: 1.1;
     color: #FFFFFF;
 }
