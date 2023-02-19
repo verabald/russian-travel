@@ -1,5 +1,5 @@
 .place {
-    width: calc(100vw - (148 * 2));
+    width: calc(100vw - 148 * 2);
     margin: 0 0 80px;
     padding: 0;
     box-sizing: border-box;
@@ -14,7 +14,7 @@
 
 @media screen and (max-width: 1024px) {
     .place {
-        width: calc(100vw - (48 * 2));
+        width: calc(100vw - 48 * 2);
         grid-template-columns: 440px 1fr;
         gap: 0 32px;
     }
@@ -23,7 +23,7 @@
 @media screen and (max-width: 768px) {
     .place {
         margin: 0 0 73px;
-        width: calc(100vw - (24 * 2));
+        width: calc(100vw - 24 * 2);
         grid-template-columns: 340px 1fr;
         gap: 0 28px;
     }
