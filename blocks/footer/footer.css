@@ -1,5 +1,19 @@
 .footer {
-    margin: calc(64px + (92 - 64) * ((100vw - 320px) / (1280 - 320))) 48px 0;
+    margin: 92px 48px 0;
+    padding: 0;
     display: flex;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 768px) {
+    .footer {
+        margin: 100px 24px 0;
+    }
+  }
+
+@media screen and (max-width: 576px) {
+    .footer {
+        margin: 64px 118px 0 16px;
+        flex-direction: column;
+    }
+  }

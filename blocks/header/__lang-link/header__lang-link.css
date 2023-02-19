@@ -2,11 +2,17 @@
     margin: 0 18px 0 0;
     font-style: normal;
     font-weight: 400;
-    font-size: calc(18px + (24 - 18) * ((100vw - 320px) / (1280 - 320)));
+    font-size: 24px;
     line-height: 1.7;
     color: #FFFFFF;
   }
 
   .header__lang-link:last-child {
     margin: 0;
+  }
+
+  @media screen and (max-width: 576px) {
+    .header__lang-link {
+        font-size: 18px;
+    }
   }

@@ -1,5 +1,19 @@
 .places {
-    margin: calc(64px + (92 - 64) * ((100vw - 320px) / (1280 - 320))) calc(0px + (148 - 0) * ((100vw - 320px) / (1280 - 320))) 0;
+    width: fit-content;
+    margin: 92px auto 0;
     display: flex;
     flex-direction: column;
 }
+
+@media screen and (max-width: 768px) {
+    .places {
+        margin-top: 88px;
+    }
+  } 
+
+
+@media screen and (max-width: 576px) {
+    .places {
+       margin-top: 64px;
+    }
+  } 

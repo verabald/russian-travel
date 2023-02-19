@@ -1,5 +1,26 @@
 .cover {
-    margin: calc(66px + (92 - 66) * ((100vw - 320px) / (1280 - 320))) calc(0px + (48 - 0) * ((100vw - 320px) / (1280 - 320))) 48px;
+    margin: 92px 48px 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover  {
+        margin-left: 0;
+        margin-right: 0;
+    }
+  } 
+
+
+@media screen and (max-width: 768px) {
+    .cover  {
+        margin: 78px 0 0;
+    }
+  }  
+
+
+@media screen and (max-width: 576px) {
+    .cover  {
+        margin: 66px 0 0;
+}
 }
