@@ -1,7 +1,7 @@
 .place__website {
     margin: 0;
     padding: 0;
-    justify-content: center;
+    align-self: end;
     display: flex;
     flex-direction: column;
 }

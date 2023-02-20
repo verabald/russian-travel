@@ -4,31 +4,32 @@
     box-sizing: border-box;
     display: grid;
     grid-template-columns: 460px 1fr;
-    gap: 0 40px;
+    gap: 48px 40px;
 }
 
 .place:last-child {
-    margin: 0;
+    margin-bottom: 0;
 }
 
 @media screen and (max-width: 1024px) {
     .place {
         margin: 0 48px 80px;
         grid-template-columns: 440px 1fr;
-        gap: 0 32px;
+        gap: 48px 32px;
     }
   } 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 782px) {
     .place {
         margin: 0 24px 73px;
         grid-template-columns: 340px 1fr;
-        gap: 0 28px;
+        gap: 48px 28px;
     }
+
   } 
 
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 630px) {
     .place {
         margin: 0 0 50px;
         grid-template-columns: 320px;
